@@ -1,0 +1,62 @@
+# An attempt to create a nice gtk dark theme
+#
+#
+style "default"
+
+{
+#  font    = "-*-lucida-medium-r-normal-*-12-*-*-*-p-*-*-*"
+#  fontset = "-*-lucida-medium-r-normal-*-12-*-*-*-p-*-*-*"
+#  font    = "-*-lucida sans-medium-r-normal-*-12-*-*-*-p-*-*-*"
+#  fontset = "-*-lucida sans-medium-r-normal-*-12-*-*-*-p-*-*-*"
+
+ font = "-*-lucida sans-medium-r-normal-*-12-*-*-*-p-*-*-*"
+ fontset = "-*-lucida sans-medium-r-normal-*-12-*-*-*-p-*-*-*"
+
+
+#  engine "mist" {}
+
+
+  bg[NORMAL] = { 0.259, 0.286, 0.329 }
+  bg[SELECTED] = { 0.314, 0.373, 0.310 }
+  bg[INSENSITIVE] = { 0.259, 0.286, 0.329 }
+  bg[ACTIVE] = { 0.216, 0.239, 0.275 }
+  bg[PRELIGHT] = { 0.314, 0.373, 0.310 }
+
+  base[NORMAL] = { 0.188, 0.200, 0.220 }
+  base[SELECTED] = { 0.314, 0.373, 0.310 }
+  base[INSENSITIVE] = { 0.259, 0.286, 0.329 }
+  base[ACTIVE] = { 0.188, 0.200, 0.220 }
+  base[PRELIGHT] = { 0.188, 0.200, 0.220 }
+
+  text[NORMAL] = { 1.000, 1.000, 1.000 }
+  text[SELECTED] = { 1.000, 1.000, 1.000 }
+  text[INSENSITIVE] = { 0.216, 0.239, 0.275 }
+  text[ACTIVE] = { 1.000, 1.000, 1.000 }
+  text[PRELIGHT] = { 1.000, 1.000, 1.000 }
+
+  fg[NORMAL] = { 1.000, 1.000, 1.000 }
+  fg[SELECTED] = { 1.000, 1.000, 1.000 }
+  fg[INSENSITIVE] = { 0.216, 0.239, 0.275 }
+  fg[ACTIVE] = { 1.000, 1.000, 1.000 }
+  fg[PRELIGHT] = { 1.000, 1.000, 1.000 }
+}
+
+class "*" style "default"
+
+style "ToolTip"
+{
+  bg[NORMAL] = { 1.000, 1.000, 0.863 }
+  base[NORMAL] = { 1.000, 1.000, 0.863 }
+  text[NORMAL] = { 0.000, 0.000, 0.000 }
+  fg[NORMAL] = { 0.000, 0.000, 0.000 }
+}
+
+widget "gtk-tooltips" style "ToolTip"
+
+style "MenuItem"
+{
+  bg[PRELIGHT] = { 0.314, 0.373, 0.310 }
+}
+
+class "*MenuItem" style "MenuItem"
+
