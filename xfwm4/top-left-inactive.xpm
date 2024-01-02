@@ -1,0 +1,15 @@
+/* XPM */
+static char * top_left_inactive = {
+"5 7 4 1", 
+"+	c #090909 s inactive_shadow_1", 
+"%	c #000000", 
+"#	c #1C1C1C s inactive_hilight_1", 
+".	c #919191 s inactive_color_2", 
+"%%%%%", 
+"%####", 
+"%#...", 
+"%#...", 
+"%#...", 
+"%#...", 
+"%#...", 
+};

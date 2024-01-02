@@ -1,0 +1,14 @@
+/* XPM */
+static char * title_1_inactive = {
+"5 7 3 1", 
+"+	c #000000 s", 
+"#	c #1C1C1C s inactive_hilight_1", 
+".	c #919191 s inactive_color_2", 
+"+++++", 
+"#####", 
+".....", 
+".....", 
+".....", 
+".....", 
+".....", 
+};

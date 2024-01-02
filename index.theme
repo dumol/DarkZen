@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=DarkZen
+Type=X-GNOME-Metatheme
+Comment=
+
+[X-GNOME-Metatheme]
+GtkTheme=DarkZen
+MetacityTheme=ClearlooksClassic
+IconTheme=Tango
+GtkColorScheme=fg_color:#f5f5f5,bg_color:#424954,text_color:#ffffff,base_color:#303338,selected_fg_color:#ffffff,selected_bg_color:#505f4f,tooltip_fg_color:#ffffff,tooltip_bg_color:#505f4f
+CursorTheme=default
+CursorSize=18
+NotificationTheme=standard
+BackgroundImage=
